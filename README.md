@@ -8,6 +8,11 @@ To create custom back office menu on prestashop, you must follow following steps
   - Move your controller to /public_html/Controllers/Admin/AdminCustomController.php
   - Create custom.tpl
   - Move your tpl to /public_html/Admin/themes/default/template/controllers/custom/custom.tpl
+  
+  
+# CLEAR CACHE
+It's very important to clear cache before creating menu
+
   - Now you must create menu in : Back Office -> Administration->Menus->create
 
 ```sh
